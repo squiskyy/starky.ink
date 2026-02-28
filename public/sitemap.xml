@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://starky.ink/blog/</loc>
+    <lastmod>2026-02-28T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://starky.ink/poetry/</loc>
+    <lastmod>2026-02-28T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://starky.ink/</loc>
+    <lastmod>2026-02-28T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://starky.ink/stories/</loc>
+    <lastmod>2026-02-28T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://starky.ink/about/</loc>
+  </url><url>
+    <loc>https://starky.ink/categories/</loc>
+  </url><url>
+    <loc>https://starky.ink/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,37 @@
+baseURL = 'https://starky.ink'
+languageCode = 'en-us'
+title = 'Starky Ink'
+theme = 'starky-theme'
+
+[params]
+  description = "A collection of creative works by Kelly Starky"
+  author = "Kelly Starky"
+  
+[[menus.main]]
+  name = 'Home'
+  url = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Blog'
+  url = '/blog/'
+  weight = 20
+
+[[menus.main]]
+  name = 'Poetry'
+  url = '/poetry/'
+  weight = 30
+
+[[menus.main]]
+  name = 'Stories'
+  url = '/stories/'
+  weight = 40
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 50
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'

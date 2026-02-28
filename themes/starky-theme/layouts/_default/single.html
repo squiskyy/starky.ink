@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="single-page">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+            {{ if .Date }}
+            <time class="date">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ end }}
+            {{ if .Params.tags }}
+            <div class="tags">
+                {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </header>
+        
+        <div class="page-content">
+            {{ .Content }}
+        </div>
+        
+        <footer class="page-footer">
+            <a href="{{ "/" | relURL }}" class="back-link">← Back home</a>
+        </footer>
+    </div>
+</article>
+{{ end }}
