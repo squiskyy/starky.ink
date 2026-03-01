@@ -687,6 +687,14 @@ body {
   font-size: 0.85rem;
   border-top: 1px solid var(--glass-border);
   background: rgba(0, 0, 0, 0.2);
+  min-height: 100px;
+}
+
+/* Ensure footer stays at bottom */
+.site-main {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 160px);
 }
 
 /* Animations */
